@@ -18,7 +18,7 @@
 <body>
     <!-- HEADER -->
     <header class="page-header">
-        <div class="container">
+        <div class="container page-header-container">
         <nav class="navigation">
             <a class="logo link" href="#" lang="en">Web<span class="logo-dark">Studio</span></a>
         <ul class="menu list">
@@ -42,7 +42,7 @@
     <main>
         <!-- HERO -->
         <section class="stydio-hero">
-            <div class="container">
+            <div class="container stydio-hero-container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="modal-btn" type="button">Заказать услугу</button>
                 </div>
@@ -51,7 +51,7 @@
         <section class="benefits">
             <div class="container">
             <h2 hidden>Наши преимущества</h2>
-            <ul class="benefits-examples list">
+            <ul class="benefits-examples benefits-container list">
                 <li class="benefits-examples-item">
                     <h3 class="benefits-examples-title">
                         Внимание к деталям
@@ -91,7 +91,7 @@
         <section class="portfolio">
             <div class="container">
             <h2 class="portfolio-title">Чем мы занимаемся</h2>
-            <ul class="portfolio-gallery list">
+            <ul class="portfolio-gallery portfolio-container list">
                 <li class="portfolio-gallery-item">
                     <img class="portfolio-gallery-img" src="./images/work1.jpg" alt="Процесс работы за ноутбуком" width="370" height="294" />
                 </li>
@@ -108,53 +108,61 @@
         <section class="employees-section">
             <div class="container">
             <h2 class="employees-title">Наша команда</h2>
-            <ul class="employees list">
+            <ul class="employees list employees-container">
                 <li class="employees-card">
                     <img class="employees-photo" src="./images/worker1.jpg" alt="наш сотрудник" width="270" height="260" />
+                    <div class="employees-card-content">
                         <h3 class="employees-name">
                             Игорь Демьяненко
                         </h3>
                         <p class="employees-position">
                             Product Designer
                         </p>
+                    </div>
                 </li>
                 <li class="employees-card">
                     <img class="employees-photo" src="./images/worker2.jpg" alt="наш сотрудник" width="270" height="260" />
+                        <div class="employees-card-content">
                         <h3 class="employees-name">
                             Ольга Репина
                         </h3>
                         <p class="employees-position">
                             Frontend Developer
                         </p>
+                        </div>
                 </li>
                 <li class="employees-card">
                     <img class="employees-photo" src="./images/worker3.jpg" alt="наш сотрудник" width="270" height="260" />
-                        <h3 class="employees-name">
+                    <div class="employees-card-content">
+                    <h3 class="employees-name">
                             Николай Тарасов
                         </h3>
                         <p class="employees-position">
                             Marketing
                         </p>
+                        </div>
                 </li>
                 <li class="employees-card">
                     <img class="employees-photo" src="./images/worker4.jpg" alt="наш сотрудник" width="270" height="260" />
-                        <h3 class="employees-name">
+                    <div class="employees-card-content">
+                    <h3 class="employees-name">
                             Михаил Ермаков
                         </h3>
                         <p class="employees-position">
                             UI Designer
                         </p>
+                        </div>
                 </li>
             </ul>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
-        <a class="logo link" href="" lang="en">Web<span class="logo-light">Studio</span></a>
+        <div class="container footer-container">
+        <a class="logo link footer-logo" href="" lang="en">Web<span class="logo-light">Studio</span></a>
         <!-- CONTACT INFORMATION -->
         <address>
-            <ul class="contact-list list">
+            <ul class="contact-list list contact-list-container">
                 <li class="contact-list-item">
                     <a  class="contact-list-link link" href="https://goo.gl/maps/3Ua1nt9tnKoBDeo96" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
