@@ -33,7 +33,7 @@ body{
         font-family: var(--primary-font);
 }
 
-visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
